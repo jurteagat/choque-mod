@@ -1,0 +1,19 @@
+[project]
+name = "choque-mod"
+version = "0.2.0"
+description = "Shiny app that simulates a parked truck rolling down a slope and estimates the impact on a pedestrian"
+requires-python = ">= 3.12.13"
+dependencies = [
+    "shiny >= 1.0.0, < 2.0.0",
+    "plotly >= 5.20.0, < 7.0.0",
+    "numpy >= 1.26.0, < 3.0.0",
+    "reportlab >= 4.0.0, < 5.0.0",
+    "python-docx >= 1.1.0, < 2.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest >= 8.0.0, < 9.0.0",
+    "ruff >= 0.4.0",
+]
+

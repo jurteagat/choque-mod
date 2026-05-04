@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+src/app.py
+src/constants.py
+src/physics.py
+src/plotting.py
+src/ai_dev_ubu_py2.egg-info/._PKG-INFO
+src/ai_dev_ubu_py2.egg-info/._SOURCES.txt
+src/ai_dev_ubu_py2.egg-info/._dependency_links.txt
+src/ai_dev_ubu_py2.egg-info/._requires.txt
+src/ai_dev_ubu_py2.egg-info/._top_level.txt
+src/ai_dev_ubu_py2.egg-info/PKG-INFO
+src/ai_dev_ubu_py2.egg-info/SOURCES.txt
+src/ai_dev_ubu_py2.egg-info/dependency_links.txt
+src/ai_dev_ubu_py2.egg-info/requires.txt
+src/ai_dev_ubu_py2.egg-info/top_level.txt
+tests/test_physics.py

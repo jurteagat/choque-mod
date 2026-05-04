@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: choque-mod
+Version: 0.2.0
+Summary: Shiny app that simulates a parked truck rolling down a slope and estimates the impact on a pedestrian
+Requires-Python: >=3.12.13
+Requires-Dist: shiny<2.0.0,>=1.0.0
+Requires-Dist: plotly<7.0.0,>=5.20.0
+Requires-Dist: numpy<3.0.0,>=1.26.0
+Provides-Extra: dev
+Requires-Dist: pytest<9.0.0,>=8.0.0; extra == "dev"
+Requires-Dist: ruff>=0.4.0; extra == "dev"
