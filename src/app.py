@@ -2,7 +2,14 @@
 
 from __future__ import annotations
 
+import sys
 from pathlib import Path
+
+# Ensure src/ is on sys.path regardless of how the app is invoked (local,
+# `shiny run src/app.py`, or deployed as `src.app`).
+_src = Path(__file__).parent
+if str(_src) not in sys.path:
+    sys.path.insert(0, str(_src))
 
 from shiny import App, reactive, render, ui
 
